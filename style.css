@@ -1,0 +1,97 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  display: flex;
+  background-color: white;
+  height: 70px;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/444e9c2259545f2c94943da0/b7804190-23ce-9975-427a-b4551eb1da62.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.outer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 125vh;
+}
+
+.textouter {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 > img {
+  width: 120rem;
+}
+
+#pid1 {
+  color: #52c8ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 0px 0px 5px #52c8ff;
+}
+
+.outer {
+  margin-top: 40px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#blank {
+  border-radius: 50px;
+  height: 48px;
+  padding-left: 9px;
+  font-size: 16px;
+}
+
+button {
+  border-radius: 50px;
+  height: 48px;
+  font-size: 20px;
+  background-color: #52c8ff;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#pid2 {
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  height: 70px;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
